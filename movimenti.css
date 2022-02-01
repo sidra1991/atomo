@@ -5,6 +5,95 @@
     50%{
         top: 83px;
         left: 80px;
-        z-index: 5;
+    }
+    75% {
+        z-index: -1;
+    }
+    100%{
+        left: 68px;
+        top: -65px;
     }
 }
+
+.el2{
+    animation: ele2 3s linear infinite;
+}
+@keyframes ele2{
+    50%{
+        left: 0px;
+        top: -36px;
+    }
+    75%{
+        z-index: 2;
+    }
+    100% {
+        left: 141px;
+        top: 1px;
+    }
+}
+
+.el3{
+    animation: ele3 2s linear infinite;
+}
+@keyframes ele3{
+    50%{
+        top: -34px;
+        left: 146px;
+    }
+    75% {
+        z-index: -1;
+    }
+    100%{
+        left: 1px;
+        top: 1px;
+    }
+}
+
+.neutroni{
+    animation: neun 5s linear infinite;
+}
+
+@keyframes neun{
+    25%{
+        top:1.5rem;
+        transform: rotate(1turn);
+    }
+    50%{
+        top:3.5rem;
+        left:3.5rem;
+    }
+    75%{
+        top:3rem;
+        left: 1.5rem;
+    }
+
+}
+
+.atomo {
+    animation: atom 5s linear infinite;
+}
+
+@keyframes atom{
+    0%{
+        top:1.5rem;
+    }
+    25%{
+        top:0rem;
+        left:0rem;
+    }
+    75%{
+        top:15rem;
+        left: 18rem;
+    }
+
+    90%{
+        top:12rem;
+        left:13rem;
+    }
+
+    100%{
+        top: 10rem;
+        left: 10rem;
+    }
+}
+

@@ -26,20 +26,20 @@
     position: absolute;
     top: 10rem;
     left: 10rem;
-    background-color: rgba(100, 0, 0, 0.2);
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
+    border: 0.5px solid black;
 }
 
 .neutroni {
     position: relative;
     top:3rem;
     left:3rem;
-    background-color: rgba(100, 100, 0, 0.2);
     width: 4rem;
     height: 4rem;
     border-radius: 50%;
+    z-index: 1;
 }
 
 .n1{
@@ -88,16 +88,20 @@
     position: relative;
     left: 68px;
     top: -65px;
+    z-index: 2;
 }
 
 .el2{
     position: relative;
     left: 141px;
     top: 1px;
+    z-index: -1;
 }
 
 .el3{
     position: relative;
     left: 1px;
     top: 1px;
+    z-index: 2;
 }
+
