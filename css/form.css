@@ -1,0 +1,103 @@
+.neutrone-blu {
+    background-color: blue;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid black;
+}
+
+.eletrone {
+    background-color: green;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid black;
+}
+
+.neutrone-rosso {
+    background-color: red;
+    border-radius: 50%;
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid black;
+}
+
+.atomo {
+    position: absolute;
+    top: 10rem;
+    left: 10rem;
+    background-color: rgba(100, 0, 0, 0.2);
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.neutroni {
+    position: relative;
+    top:3rem;
+    left:3rem;
+    background-color: rgba(100, 100, 0, 0.2);
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+
+.n1{
+    position: relative;
+    top: 25px;
+    left: 25px;
+}
+
+.n2 {
+    position: relative;
+    top:19px;
+    left:25px;
+}
+
+.n3 {
+    position: relative;
+    top:-5px;
+    left:17px;
+}
+
+.n4 {
+    position: relative;
+    top:-34px;
+    left:13px;
+}
+
+.n5 {
+    position: relative;
+    top:-58px;
+    left:23px;
+}
+
+.n6 {
+    position: relative;
+    top:-74px;
+    left:33px;
+}
+
+.n7 {
+    position: relative;
+    top:-79px;
+    left:36px;
+}
+
+.el1{
+    position: relative;
+    left: 68px;
+    top: -65px;
+}
+
+.el2{
+    position: relative;
+    left: 141px;
+    top: 1px;
+}
+
+.el3{
+    position: relative;
+    left: 1px;
+    top: 1px;
+}
